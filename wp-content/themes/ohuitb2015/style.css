@@ -22,20 +22,42 @@ h6 {
   background-size: 100%;
 }
 
+.header {
+  min-height: 400px;
+  height: 100vh;
+  position: relative;
+}
+
+.main-logo {
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, calc(-50% + 70px));
+}
+
 /* Main Content */
-.main-content,
+.about-ohu,
 .mascot-name {
   font-size: 20px;
 }
 
-.main-content {
+.about-ohu {
   position: relative;
   font-family: 'amerika_pro', serif;
   line-height: 1.5;
   color: #5B3619;
-  max-width: 600px;
-  margin: 150px auto 0;
   text-align: center;
+}
+
+.about-ohu > .container {
+  max-width: 1000px;
+}
+
+.main-content {
+  position: relative; 
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .cloud {
@@ -60,18 +82,13 @@ h6 {
 }
 
 
-.main-content p {
+.about-ohu p {
   margin-bottom: 30px;
 }
 
-.main-logo,
 .nirbanadwipa {
   margin-bottom: 70px;
   max-width: 100%;
-}
-
-.main-logo {
-  width: 180px;
 }
 
 .mascot-image {
@@ -88,24 +105,24 @@ h6 {
 
 @media (min-width: 768px) { 
   .mascot-name,
-  .main-content {
+  .about-ohu {
     font-size: 25px;
   }
 
-  .main-content {
-    margin: 200px auto 0;
+  .about-ohu {
+    
   }
 }
 
 @media (min-width: 992px) {
-  .main-content {
-    margin: 250px auto 0;
+  .about-ohu {
+    
   }
 }
 
 @media (min-width: 1200px) {
-  .main-content {
-    margin: 300px auto 0;
+  .about-ohu {
+    
   }
 }
 
@@ -127,24 +144,27 @@ h6 {
   font-size: 25px;
 }
 
+/* Organigram */
+.organigram {
+  position: relative; 
+}
+
+.organigram > img {
+  width: 100%;
+  position: relative; 
+  z-index: 999;
+}
+
+.img img {
+  display: block;
+  position: absolute;
+  width: 100%;
+}
 
 footer {
   position: relative;
   background-color: #0D0F15;
   padding: 30px 0;
-}
-
-footer:before {
-  content: '';
-  position: absolute;
-  top: -100px;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  background-image: url('images/footer-bg.png');
-  background-size: 100%;
-  background-position: bottom;
-  background-repeat: no-repeat;
 }
 
 .footer-logo {
@@ -206,9 +226,6 @@ footer:before {
 }
 
 @media (min-width: 768px) { 
-  footer {
-    
-  }
   .footer-logo {
     margin: 0;
     float: right; 
@@ -237,10 +254,6 @@ footer:before {
     margin-left: 60px;
     width: 52px;
     height: 52px;
- }
-
- footer {
-  
  }
 }
 

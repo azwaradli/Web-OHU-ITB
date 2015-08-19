@@ -78,6 +78,11 @@ h6 {
     top: 450px;
     right: -300px;
   }  
+
+  .timeline-ohu .daun {
+    margin-top: 5vw;
+    display: block;
+  }
 }
 
 
@@ -102,33 +107,39 @@ h6 {
   margin-bottom: 40px;
 }
 
-@media (min-width: 768px) { 
-  .mascot-name,
-  .about-ohu {
-    font-size: 25px;
-  }
-
-  .about-ohu {
-    
-  }
-}
-
-@media (min-width: 992px) {
-  .about-ohu {
-    
-  }
-}
-
-@media (min-width: 1200px) {
-  .about-ohu {
-    
-  }
-}
-
 .timeline-ohu {
   text-align: center;
   font-family: 'amerika_pro', serif;
   color: #5B3619;
+
+  padding-top: 5vh;
+}
+
+.daun .col-sm-4:nth-child(1) {
+  height: 45vw;
+
+  width: 100%;
+  background-image: url('../images/daun-mobile-1.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.daun .col-sm-4:nth-child(2) {
+  height: 35vw;
+
+  width: 100%;
+  background-image: url('../images/daun-mobile-2.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.daun .col-sm-4:nth-child(3) {
+  height: 35vw;
+
+  width: 100%;
+  background-image: url('../images/daun-mobile-3.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .timeline-ohu-title {
@@ -141,6 +152,53 @@ h6 {
 
 .timeline-ohu-event {
   font-size: 25px;
+}
+
+@media (min-width: 768px) { 
+  .mascot-name,
+  .about-ohu {
+    font-size: 25px;
+  }
+
+  .about-ohu {
+    
+  }
+
+  .timeline-ohu {
+    width: 100%;
+    background-image: url('../images/sulur.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .timeline-ohu .daun {
+    height: 35vw;
+    margin-top: 2vw;
+
+    background-image: url('../images/daun-pc.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .daun .col-sm-4 {
+    display: none;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .about-ohu {
+    
+  }
+  .timeline-ohu .daun {
+    margin-top: 5vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-ohu {
+    
+  }
 }
 
 /* Organigram */

@@ -21,7 +21,7 @@
 		wp_enqueue_script('bootstrap_js',  get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '', true);
 		wp_enqueue_script('wow_js',  get_template_directory_uri() . '/js/wow.min.js', array('jquery'), '', true);
 
-		if ( !wp_is_mobile ) {
+		if ( !wp_is_mobile() ) {
 			wp_enqueue_script('skrollr_js',  get_template_directory_uri() . '/js/skrollr.min.js', array('jquery'), '', true);
 		}
 

@@ -76,7 +76,7 @@
           <img src="<?php bloginfo('template_url'); ?>/images/daun-2.png">
           
           <div class="event-details event-details-2">
-            <p class="timeline-ohu-date">25 / 8</p>
+            <p class="timeline-ohu-date">26 / 8</p>
             <p class="timeline-ohu-event">pre event</p>
           </div>
         </div>
@@ -86,7 +86,7 @@
         <div class="daun">
           <img src="<?php bloginfo('template_url'); ?>/images/daun-3.png">
           <div class="event-details event-details-3">
-            <p class="timeline-ohu-date"> 30 / 8</p>
+            <p class="timeline-ohu-date"> 29 / 8</p>
             <p class="timeline-ohu-event">OHU</p>
           </div>
         </div>
@@ -145,32 +145,6 @@
     <img src="<?php bloginfo('template_url'); ?>/images/img-transparent.png" data-anchor-target=".organigram-bg" data--200-bottom-top="transform: translateY(250px);" data--500-top-bottom="transform: translateY(0px);">
 
   </div>
-
-  <footer data-anchor-target=".organigram-bg" data--200-bottom-top="transform: translateY(250px);" data--500-top-bottom="transform: translateY(0px);">
-
-    <div class="container">
-
-      <div class="row">
-        
-        <div class="col-sm-3 col-sm-offset-2">
-          <img src="<?php bloginfo('template_url'); ?>/images/footer-logo.png" class="footer-logo" alt="Logo OHU ITB 2015">
-        </div>  
-
-        <div class="col-sm-7 contact-wrapper">
-          <ul class="contact">
-            <li class="contact-askfm"><a href="http://ask.fm/OHUITB2015"></a></li>
-            <li class="contact-facebook"><a href="https://www.facebook.com/OHUITB2015"></a></li>
-            <li class="contact-instagram"><a href="https://instagram.com/ohuitb2015/"></a></li>
-            <li class="contact-line"><a href=""></a></li>
-            <li class="contact-twitter"><a href="https://twitter.com/ohuitb2015"></a></li>
-          </ul>
-        </div>
-
-      </div>
-      
-    </div>
-  
-  </footer>
 
 </div> <!-- End wrapper -->
 

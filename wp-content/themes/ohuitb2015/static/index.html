@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/easyzoom.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=2">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -54,18 +54,18 @@
           <div class="row">
             
             <div class="col-sm-4">
-              <img src="images/bhadrika.png" class="mascot-image center-block wow rotateIn" alt="Bhadrika">
-              <p class="mascot-name wow fadeInUp" data-wow-delay="100ms">Bhadrika</p>
+              <img src="images/bhadrika.png" class="mascot-image center-block" alt="Bhadrika">
+              <p class="mascot-name">Bhadrika</p>
             </div>
             
             <div class="col-sm-4">
-              <img src="images/witamaya.png" class="mascot-image center-block wow rotateIn" data-wow-delay="400ms" alt="Witamaya">
-              <p class="mascot-name wow fadeInUp" data-wow-delay="500ms">Witamaya</p>
+              <img src="images/witamaya.png" class="mascot-image center-block" alt="Witamaya">
+              <p class="mascot-name">Witamaya</p>
             </div>
             
             <div class="col-sm-4">
-              <img src="images/ugraveda.png" class="mascot-image center-block wow rotateIn" data-wow-delay="800ms" alt="Ugraveda">
-              <p class="mascot-name wow fadeInUp" data-wow-delay="900ms">Ugraveda</p>
+              <img src="images/ugraveda.png" class="mascot-image center-block" alt="Ugraveda">
+              <p class="mascot-name">Ugraveda</p>
             </div>
           
           </div>
@@ -123,7 +123,15 @@
 
       <div class="organigram">
         
-        <h2 class="organigram-title" data-anchor-target=".organigram-bg" data--200-bottom-top="transform: translateY(300px);" data--500-top-bottom="transform: translateY(50px);">Organigram OHU</h2>
+        <div class="container">
+          
+          <div class="title" data-anchor-target=".organigram-bg" data--200-bottom-top="transform: translateY(400px);" data--500-top-bottom="transform: translateY(150px);">
+            <h2 class="organigram-title">Organigram OHU</h2>
+            <p>(Hover to zoom or click <a href="">here</a> for high quality image)</p>
+          </div>
+          
+        </div>
+
         
         <div class="organigram-bg" data-bottom-top="transform: translateY(0px);" data-top-bottom="transform: translateY(50px);">
           <img src="images/bianglala.png">
@@ -133,23 +141,23 @@
           <img src="images/bunga.png">
         </div>
           
-        <div class="organigram-bg" data--200-bottom-top="transform: translateY(200px);" data--500-top-bottom="transform: translateY(150px);">
+        <div class="organigram-bg terumbu-karang-3" data--200-bottom-top="transform: translateY(200px);" data--500-top-bottom="transform: translateY(150px);">
           <img src="images/terumbu-karang-3.png">  
         </div>
         
-        <div class="organigram-bg" data--200-bottom-top="transform: translateY(200px);" data--500-top-bottom="transform: translateY(80px);">
+        <div class="organigram-bg terumbu-karang-2" data--200-bottom-top="transform: translateY(200px);" data--500-top-bottom="transform: translateY(80px);">
           <img src="images/terumbu-karang-2.png">  
         </div>
         
-        <div class="organigram-bg" data--200-bottom-top="transform: translateY(200px);" data--500-top-bottom="transform: translateY(0px);">
+        <div class="organigram-bg terumbu-karang-1" data--200-bottom-top="transform: translateY(200px);" data--500-top-bottom="transform: translateY(0px);">
           <img src="images/terumbu-karang-1.png">  
         </div>
         
-        <div class="organigram-bg" data--200-bottom-top="transform: translateY(200px);" data--500-top-bottom="transform: translateY(150px);">
+        <div class="organigram-bg payung-2" data--200-bottom-top="transform: translateY(200px);" data--500-top-bottom="transform: translateY(150px);">
           <img src="images/payung-2.png">  
         </div>
         
-        <div class="organigram-bg" data--200-bottom-top="transform: translateY(200px);" data--500-top-bottom="transform: translateY(100px);">
+        <div class="organigram-bg payung-1" data--200-bottom-top="transform: translateY(200px);" data--500-top-bottom="transform: translateY(100px);">
           <img src="images/payung-1.png">  
         </div>
         
@@ -160,14 +168,16 @@
         <div class="organigram-bg">
           <img src="images/footer-bg.png" data-anchor-target=".organigram-bg" data--200-bottom-top="transform: translateY(250px);" data--500-top-bottom="transform: translateY(0px);">  
         </div>
+      
+        <div class="organigram-img-wrapper" data-anchor-target=".organigram-bg" data--200-bottom-top="transform: translateY(250px);" data--500-top-bottom="transform: translateY(0px);">
+          <div class="easyzoom easyzoom--overlay organigram-img">
+            <a href="example-images/1_zoom.jpg">
+              <img src="images/organigram-lq.png" class="images-zoom">
+            </a>
+          </div>
+        </div>
 
-<!--         <div class="easyzoom easyzoom--overlay">
-          <a href="example-images/1_zoom.jpg">
-            <img src="images/organigram-lq.png" alt="">
-          </a>
-        </div> -->
-
-        <img src="images/img-transparent.png" data-anchor-target=".organigram-bg" data--200-bottom-top="transform: translateY(250px);" data--500-top-bottom="transform: translateY(0px);">
+        <img src="images/img-transparent.png" class="img-transparent" data-anchor-target=".organigram-bg" data--200-bottom-top="transform: translateY(250px);" data--500-top-bottom="transform: translateY(0px);">
 
       </div>
 
@@ -204,9 +214,9 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
-    <script src="js/skrollr.min.js"></script>
+    <!-- <script src="js/skrollr.min.js"></script> -->
     <script src="js/easyzoom.js"></script>
-    <script src="js/main.js"></script>
+    <!-- <script src="js/main.js"></script> -->
     <script>
       var $easyzoom = $('.easyzoom').easyZoom();
     </script>

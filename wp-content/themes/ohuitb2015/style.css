@@ -1,6 +1,5 @@
 body {
-  background: #FCF7DC;
-  height: auto !important;
+  background: #9C9776;
 }
 
 h1,
@@ -20,6 +19,8 @@ h6 {
   background-image: url('images/header-image.png');
   background-repeat: no-repeat;
   background-size: 100%;
+  background-color: #FCF7DC;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
 .header {
@@ -48,6 +49,7 @@ h6 {
   line-height: 1.5;
   color: #5B3619;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .about-ohu > .container {
@@ -63,6 +65,7 @@ h6 {
 .cloud {
   position: absolute;
   display: none;
+  z-index: 999;
 }
 
 @media (min-width: 1200px) {
@@ -71,13 +74,13 @@ h6 {
   }
 
   .cloud-1 {
-    top: 400px;
-    left: -300px;
+    top: 250px;
+    left: -270px;
   }
 
   .cloud-2 {
-    top: 450px;
-    right: -300px;
+    top: 300px;
+    right: -270px;
   }  
 }
 
@@ -127,26 +130,120 @@ h6 {
 }
 
 .timeline-ohu {
-  text-align: center;
   font-family: 'amerika_pro', serif;
   color: #5B3619;
+  margin-bottom: 100px;
 }
 
 .timeline-ohu-title {
+  text-align: center;
   font-size: 40px;
 }
 
 .timeline-ohu-date {
-  font-size: 47px;
+  font-size: 35px;
+  line-height: 1;
+  margin: 0;
 }
 
 .timeline-ohu-event {
-  font-size: 25px;
+  font-size: 20px;
+}
+
+.pohon-timeline {
+  position: relative;
+}
+
+.pohon {
+  display: none;
+}
+
+.pohon > img {
+  max-width: 100%;
+}
+
+.event {
+  position: static;
+  margin: 50px auto;
+}
+
+.event-1 {
+  width: 186px;
+  height: 291px;
+}
+
+.event-2 {
+  width: 165px;
+  height: 201px;
+}
+
+.event-3 {
+  width: 165px;
+  height: 201px;  
+}
+
+.daun {
+  text-align: center;
+  position: relative;  
+}
+
+.event-details {
+  position: absolute; 
+}
+
+.event-details-1 {
+  top: 155px;
+  left: 60px;
+}
+
+.event-details-2 {
+  top: 60px;
+  left: 45px;
+}
+
+.event-details-3 {
+  top: 70px;
+  left: 30px;
+}
+
+@media (min-width: 960px) {
+  .timeline-ohu {
+    margin-bottom: 200px;
+  }
+
+  .pohon {
+    display: block;
+  }
+
+  .event {
+    margin: 0;
+    position: absolute;
+  }
+
+  .event-1 {
+    top: 50%;
+    left: 20%;
+  }
+
+  .event-2 {
+    top: 50%;
+    left: 40%;
+  }
+
+  .event-3 {
+    top: 53%;
+    left: 63%;  
+  }
 }
 
 /* Organigram */
 .organigram {
-  position: relative; 
+  position: relative;
+}
+
+.organigram-title {
+  text-align: center;
+  font-size: 40px;
 }
 
 .organigram > img {
@@ -155,10 +252,20 @@ h6 {
   z-index: 999;
 }
 
-.img img {
+.organigram-bg > img {
   display: block;
   position: absolute;
   width: 100%;
+}
+
+.organigram-img {
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .organigram-img > img {
+    bottom: 25%;
+  }
 }
 
 footer {

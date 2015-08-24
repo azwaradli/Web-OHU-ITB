@@ -145,7 +145,7 @@
       
         <div class="organigram-img-wrapper" data-anchor-target=".organigram-bg" data--200-bottom-top="transform: translateY(250px);" data--500-top-bottom="transform: translateY(0px);">
           <div class="easyzoom easyzoom--overlay organigram-img">
-            <a href="example-<?php bloginfo( 'template_url' ) ?>/images/1_zoom.jpg">
+            <a href="<?php bloginfo( 'template_url' ) ?>/images/organigram-hq.png">
               <img src="<?php bloginfo( 'template_url' ) ?>/images/organigram-lq.png" class="images-zoom">
             </a>
           </div>

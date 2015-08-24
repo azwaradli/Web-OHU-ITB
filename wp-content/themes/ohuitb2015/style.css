@@ -46,7 +46,7 @@ p {
 }
 
 .navbar-fixed-top {
-  z-index: 100;
+  z-index: 999999;
 }
 
 .navbar-logo {
@@ -316,7 +316,7 @@ li:last-child {
 .organigram > img {
   width: 100%;
   position: relative; 
-  z-index: 99;
+  z-index: 9;
 }
 
 .organigram-bg > img {
@@ -328,7 +328,7 @@ li:last-child {
 .organigram-img-wrapper {
   width: 100%;
   position: absolute;
-  z-index: 99;
+  z-index: 99999;
   bottom: 15%;
 }
 

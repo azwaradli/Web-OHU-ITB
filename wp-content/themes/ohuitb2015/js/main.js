@@ -1,5 +1,8 @@
 jQuery(function () {
   new WOW().init();
+
+  var easyzoom = jQuery('.easyzoom').easyZoom();
+
   
   if (jQuery(window).width() >= 1200) {
     skrollr.init({

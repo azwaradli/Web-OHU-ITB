@@ -37,6 +37,16 @@ h6 {
   transform: translate(-50%, calc(-50% + 70px));
 }
 
+.title {
+  position: relative;
+  z-index: 999999;
+}
+
+.title a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 /* Main Content */
 .about-ohu,
 .mascot-name {
@@ -91,7 +101,7 @@ h6 {
 
 .nirbanadwipa {
   margin-bottom: 70px;
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .mascot-image {
@@ -111,23 +121,8 @@ h6 {
   .about-ohu {
     font-size: 25px;
   }
-
-  .about-ohu {
-    
-  }
 }
 
-@media (min-width: 992px) {
-  .about-ohu {
-    
-  }
-}
-
-@media (min-width: 1200px) {
-  .about-ohu {
-    
-  }
-}
 
 .timeline-ohu {
   font-family: 'amerika_pro', serif;
@@ -208,7 +203,7 @@ h6 {
 
 @media (min-width: 960px) {
   .timeline-ohu {
-    margin-bottom: 200px;
+    margin-bottom: -50px;
   }
 
   .pohon {
@@ -241,8 +236,12 @@ h6 {
   position: relative;
 }
 
-.organigram-title {
+.title {
   text-align: center;
+  font-family: 'amerika_pro', serif;
+}
+
+.organigram-title {
   font-size: 40px;
 }
 
@@ -258,13 +257,30 @@ h6 {
   width: 100%;
 }
 
-.organigram-img {
+.organigram-img-wrapper {
   width: 100%;
+  position: absolute;
+  z-index: 9999;
+  bottom: 15%;
 }
 
-@media (min-width: 1200px) {
-  .organigram-img > img {
-    bottom: 25%;
+.organigram-img {
+  max-width: 60%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.images-zoom {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .terumbu-karang-1,
+  .terumbu-karang-2,
+  .terumbu-karang-3,
+  .payung-1,
+  .payung-2 {
+    display: none;
   }
 }
 

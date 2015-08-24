@@ -363,12 +363,12 @@ footer {
   margin: 0 auto 30px;
 }
 
+/* Contact */
 .contact {
   padding: 0;
   text-align: center;
 }
 
-/* Contact */
 .contact li {
   list-style: none;
   display: inline-block;

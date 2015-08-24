@@ -14,7 +14,7 @@
 
 
 
-.navbar{
+.navbar {
   padding: 10px;
   text-transform: uppercase;
   font-family: 'amerika_pro', serif;
@@ -24,22 +24,22 @@
   background: rgba(252,247,220,0.9);
 }
 
-.navbar-logo{
+.navbar-logo {
   margin-left: 30px;
   width: 80px;
 }
 
-ul > li {
+.navbar-nav > li {
   padding: 0 20px;
   margin-top: 10px;
 }
 
-li:last-child{
+li:last-child {
   padding-right: 0px;
 }
 
 .navbar-default .navbar-nav > li > a:focus,
-.navbar-default .navbar-nav > li > a:hover{
+.navbar-default .navbar-nav > li > a:hover {
   color: #5B3619;
 }
 

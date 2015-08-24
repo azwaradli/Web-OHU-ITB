@@ -30,17 +30,17 @@
           <div class="row">
             
             <div class="col-sm-4">
-              <img src="<?php bloginfo('template_url');?>/images/bhadrika.png" class="mascot-image center-block" alt="Bhadrika">
+              <img src="<?php bloginfo('template_url');?>/images/bhadrika.png" class="mascot-image center-block wow rotateIn" alt="Bhadrika">
               <p class="mascot-name">Bhadrika</p>
             </div>
             
             <div class="col-sm-4">
-              <img src="<?php bloginfo('template_url');?>/images/witamaya.png" class="mascot-image center-block" alt="Witamaya">
+              <img src="<?php bloginfo('template_url');?>/images/witamaya.png" class="mascot-image center-block wow rotateIn" alt="Witamaya">
               <p class="mascot-name">Witamaya</p>
             </div>
             
             <div class="col-sm-4">
-              <img src="<?php bloginfo('template_url');?>/images/ugraveda.png" class="mascot-image center-block" alt="Ugraveda">
+              <img src="<?php bloginfo('template_url');?>/images/ugraveda.png" class="mascot-image center-block wow rotateIn" alt="Ugraveda">
               <p class="mascot-name">Ugraveda</p>
             </div>
           

@@ -31,7 +31,7 @@
                    <span class="icon-bar"></span>
                 </button>
                 <!-- <a class="navbar-brand" href="#page-top">Start Bootstrap</a> -->
-                <img src="<?php bloginfo( 'template_url' ); ?>/images/logo-nav.png" class="navbar-logo" alt="Logo OHU ITB 2015">
+                <a href="<?php bloginfo( 'url' ) ?>"><img src="<?php bloginfo( 'template_url' ); ?>/images/logo-nav.png" class="navbar-logo" alt="Logo OHU ITB 2015"></a>
              </div>
 
              <!-- Collect the nav links, forms, and other content for toggling -->
@@ -41,16 +41,10 @@
                       <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                      <a href="#home">Home</a>
+                      <a href="<?php bloginfo( 'url' ) ?>">Home</a>
                     </li>
                     <li class="page-scroll">
-                      <a href="#news">News</a>
-                    </li>
-                    <li class="page-scroll">
-                      <a href="#unit">Unit</a>
-                    </li>
-                    <li class="page-scroll">
-                      <a href="#kontak">Kontak</a>
+                      <a href="<?php bloginfo( 'url' ) ?>/news">News</a>
                     </li>
                 </ul>
              </div>

@@ -16,7 +16,7 @@
 
   </head>
 
-  <body>
+  <body <?php body_class(); ?>>
     <div class="header">
 
       <!-- Navigation -->
@@ -31,7 +31,7 @@
                    <span class="icon-bar"></span>
                 </button>
                 <!-- <a class="navbar-brand" href="#page-top">Start Bootstrap</a> -->
-                <img src="<?php bloginfo('template_url'); ?>/images/logo.png" class="navbar-logo" alt="Logo OHU ITB 2015">
+                <img src="<?php bloginfo( 'template_url' ); ?>/images/logo-nav.png" class="navbar-logo" alt="Logo OHU ITB 2015">
              </div>
 
              <!-- Collect the nav links, forms, and other content for toggling -->
@@ -57,3 +57,5 @@
              <!-- /.navbar-collapse -->
           </div>
       </nav> <!-- end of navigation --> 
+
+      <!-- Gambar Maskot -->

@@ -108,50 +108,50 @@
 
         
         <div class="organigram-bg" data-bottom-top="transform: translateY(0px);" data-top-bottom="transform: translateY(50px);">
-          <img src="<?php bloginfo('template_url');?>/images/bianglala.png">
+          <img src="<?php bloginfo( 'template_url' ) ?>/images/bianglala.png">
         </div>
         
         <div class="organigram-bg"> 
-          <img src="<?php bloginfo('template_url');?>/images/bunga.png">
+          <img src="<?php bloginfo( 'template_url' ) ?>/images/bunga.png">
         </div>
           
         <div class="organigram-bg terumbu-karang-3" data--200-bottom-top="transform: translateY(200px);" data--500-top-bottom="transform: translateY(150px);">
-          <img src="<?php bloginfo('template_url');?>/images/terumbu-karang-3.png">  
+          <img src="<?php bloginfo( 'template_url' ) ?>/images/terumbu-karang-3.png">  
         </div>
         
         <div class="organigram-bg terumbu-karang-2" data--200-bottom-top="transform: translateY(200px);" data--500-top-bottom="transform: translateY(80px);">
-          <img src="<?php bloginfo('template_url');?>/images/terumbu-karang-2.png">  
+          <img src="<?php bloginfo( 'template_url' ) ?>/images/terumbu-karang-2.png">  
         </div>
         
         <div class="organigram-bg terumbu-karang-1" data--200-bottom-top="transform: translateY(200px);" data--500-top-bottom="transform: translateY(0px);">
-          <img src="<?php bloginfo('template_url');?>/images/terumbu-karang-1.png">  
+          <img src="<?php bloginfo( 'template_url' ) ?>/images/terumbu-karang-1.png">  
         </div>
         
         <div class="organigram-bg payung-2" data--200-bottom-top="transform: translateY(200px);" data--500-top-bottom="transform: translateY(150px);">
-          <img src="<?php bloginfo('template_url');?>/images/payung-2.png">  
+          <img src="<?php bloginfo( 'template_url' ) ?>/images/payung-2.png">  
         </div>
         
         <div class="organigram-bg payung-1" data--200-bottom-top="transform: translateY(200px);" data--500-top-bottom="transform: translateY(100px);">
-          <img src="<?php bloginfo('template_url');?>/images/payung-1.png">  
+          <img src="<?php bloginfo( 'template_url' ) ?>/images/payung-1.png">  
         </div>
         
         <div class="organigram-bg" data--200-bottom-top="transform: translateY(250px);" data--500-top-bottom="transform: translateY(0px);">
-          <img src="<?php bloginfo('template_url');?>/images/footer-bg-2.png">  
+          <img src="<?php bloginfo( 'template_url' ) ?>/images/footer-bg-2.png">  
         </div>
         
         <div class="organigram-bg">
-          <img src="<?php bloginfo('template_url');?>/images/footer-bg.png" data-anchor-target=".organigram-bg" data--200-bottom-top="transform: translateY(250px);" data--500-top-bottom="transform: translateY(0px);">  
+          <img src="<?php bloginfo( 'template_url' ) ?>/images/footer-bg.png" data-anchor-target=".organigram-bg" data--200-bottom-top="transform: translateY(250px);" data--500-top-bottom="transform: translateY(0px);">  
         </div>
       
         <div class="organigram-img-wrapper" data-anchor-target=".organigram-bg" data--200-bottom-top="transform: translateY(250px);" data--500-top-bottom="transform: translateY(0px);">
           <div class="easyzoom easyzoom--overlay organigram-img">
-            <a href="example-images/1_zoom.jpg">
-              <img src="<?php bloginfo('template_url');?>/images/organigram-lq.png" class="images-zoom">
+            <a href="example-<?php bloginfo( 'template_url' ) ?>/images/1_zoom.jpg">
+              <img src="<?php bloginfo( 'template_url' ) ?>/images/organigram-lq.png" class="images-zoom">
             </a>
           </div>
         </div>
 
-        <img src="<?php bloginfo('template_url');?>/images/img-transparent.png" class="img-transparent" data-anchor-target=".organigram-bg" data--200-bottom-top="transform: translateY(250px);" data--500-top-bottom="transform: translateY(0px);">
+        <img src="<?php bloginfo( 'template_url' ) ?>/images/img-transparent.png" class="img-transparent" data-anchor-target=".organigram-bg" data--200-bottom-top="transform: translateY(250px);" data--500-top-bottom="transform: translateY(0px);">
 
       </div>
 

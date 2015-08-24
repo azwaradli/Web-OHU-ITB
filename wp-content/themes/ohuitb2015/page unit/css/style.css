@@ -1,0 +1,97 @@
+body{
+	background: #FCF7DC;
+}
+
+.navbar{
+	padding: 10px;
+	text-transform: uppercase;
+	font-family: 'amerika_pro', serif;
+	color: #5B3619;
+	font-weight: 700;
+	font-size: 25px;
+	background: rgba(252,247,220,0.9);
+}
+
+.navbar-logo{
+	margin-left: 30px;
+	width: 80px;
+}
+
+ul > li {
+	padding: 0 20px;
+	margin-top: 10px;
+}
+
+li:last-child{
+	padding-right: 0px;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover{
+	color: #5B3619;
+}
+
+/*a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #5B3619;
+}*/
+
+.maskot-unit{
+	position: absolute;
+	top: 50%;
+}
+
+.bhadrika{
+	margin-left: 40px;
+	width: 450px;
+}
+
+.witmayaya{
+	width: 250px;
+}
+
+.ugraveda{
+	margin-left: 40px;
+	width: 450px;
+}
+
+.rumpun-unit{
+	position: absolute;
+	text-align: center;
+	font-family: 'amerika_pro', serif;
+  	line-height: 1.5;
+  	color: #5B3619;
+  	top: 85%;
+  	font-size: 30px;
+}
+
+.center{
+	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+@media (min-width: 769px){
+	.bhadrika{
+		margin-top: -40px;
+		margin-left: 50px;
+		width: 750px;
+	}
+
+	.witmayaya{
+		width: 350px;
+	}
+
+	.ugraveda{
+		margin-top: -10px;
+		margin-left: 20px;
+		width: 600px;
+	}
+
+	.rumpun-unit{
+		top: 90%;
+		font-size: 50px;
+	}
+}

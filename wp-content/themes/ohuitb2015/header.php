@@ -31,7 +31,7 @@
                    <span class="icon-bar"></span>
                 </button>
                 <!-- <a class="navbar-brand" href="#page-top">Start Bootstrap</a> -->
-                <img src="images/logo.png" class="navbar-logo" alt="Logo OHU ITB 2015">
+                <img src="/images/logo.png" class="navbar-logo" alt="Logo OHU ITB 2015">
              </div>
 
              <!-- Collect the nav links, forms, and other content for toggling -->
@@ -59,17 +59,3 @@
       </nav> <!-- end of navigation --> 
 
       <!-- Gambar Maskot -->
-
-      <!-- Main Content -->
-      <div class="main-content">
-        <!-- Awan - awan -->
-        <div class="cloud cloud-1" data-bottom-top="transform: translateY(0px)" data-top-bottom="transform: translateY(-600px)">
-          <img src="images/cloud-1.png">
-        </div>
-
-        <div class="cloud cloud-2" data-bottom-top="transform: translateY(0px)" data-top-bottom="transform: translateY(-200px)">
-          <img src="images/cloud-2.png">
-        </div>
-        
-      </div>
-    </div>

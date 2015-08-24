@@ -1,0 +1,86 @@
+.wrapper-unit {
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #FCF7DC;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  	font-family: 'amerika_pro', serif;
+  	color: #792020;
+}
+
+.container-unit {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+
+
+.navbar{
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: 'amerika_pro', serif;
+  color: #5B3619;
+  font-weight: 700;
+  font-size: 25px;
+  background: rgba(252,247,220,0.9);
+}
+
+.navbar-logo{
+  margin-left: 30px;
+  width: 80px;
+}
+
+ul > li {
+  padding: 0 20px;
+  margin-top: 10px;
+}
+
+li:last-child{
+  padding-right: 0px;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover{
+  color: #5B3619;
+}
+
+.mascot {
+	width: 100%;
+	font-size: 45px;
+	text-align: center;
+	padding-bottom: 8vh;
+}
+
+.mascot > img {
+	padding-top: 10vh;
+	padding-bottom: 4vh;
+	width: 100%;
+}
+
+.container-unit > .cloud-1 {
+	top:320px;
+	left:0px;
+}
+
+.container-unit > .cloud-2 {
+	top:380px;
+	right:0px;
+}
+
+.unit {
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.unit .row {
+	font-size: 16px;
+	text-align: justify;
+}
+
+.unit img {
+	max-width: 100%;
+}
+
+.unit-name {
+	font-size: 24px;
+	padding-bottom: 35px;
+}

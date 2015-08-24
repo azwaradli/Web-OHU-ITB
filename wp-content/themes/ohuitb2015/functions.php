@@ -5,6 +5,7 @@
 		wp_enqueue_style('animation_css', get_template_directory_uri() . '/css/animate.css');
 		wp_enqueue_style('font_css', get_template_directory_uri() . '/css/fonts.css');
 		wp_enqueue_style('easyzoom_css', get_template_directory_uri() . '/css/easyzoom.css');
+		wp_enqueue_style('unit_css', get_template_directory_uri() . '/css/unit.css');
 		wp_enqueue_style('main_css', get_template_directory_uri() . '/style.css');
 	}
 	add_action('wp_enqueue_scripts', 'theme_styles');

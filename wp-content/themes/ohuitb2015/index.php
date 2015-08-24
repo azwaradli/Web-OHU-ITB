@@ -75,7 +75,7 @@
               <img src="<?php bloginfo('template_url');?>/images/daun-2.png">
               
               <div class="event-details event-details-2">
-                <p class="timeline-ohu-date">25 / 8</p>
+                <p class="timeline-ohu-date">26 / 8</p>
                 <p class="timeline-ohu-event">pre event</p>
               </div>
             </div>
@@ -85,7 +85,7 @@
             <div class="daun">
               <img src="<?php bloginfo('template_url');?>/images/daun-3.png">
               <div class="event-details event-details-3">
-                <p class="timeline-ohu-date"> 30 / 8</p>
+                <p class="timeline-ohu-date"> 29 / 8</p>
                 <p class="timeline-ohu-event">OHU</p>
               </div>
             </div>

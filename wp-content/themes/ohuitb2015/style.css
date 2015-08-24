@@ -1,3 +1,17 @@
+body.logged-in .wrapper { 
+  padding-top: 46px;
+}
+
+body.logged-in .navbar-fixed-top {
+  margin-top: 32px;
+}
+
+@media screen and ( min-width: 782px ) {
+  body.logged-in .wrapper  { 
+    padding-top: 32px; 
+  }
+}
+
 body {
   background: #9C9776;
 }
@@ -12,20 +26,68 @@ h6 {
   color: #5B3619;
 }
 
+p {
+  font-family: 'aller', sans-serif;
+  color: #5B3619;
+}
+
+/* Navbar */
+.navbar {
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: 'amerika_pro', serif;
+  color: #5B3619;
+  font-weight: 700;
+  font-size: 16px;
+  background: rgba(252,247,220,0.9);
+  border-radius: 0;
+  border: none;
+  margin: 0;
+}
+
+.navbar-fixed-top {
+  z-index: 100;
+}
+
+.navbar-logo {
+  margin-left: 30px;
+  width: 50px;
+}
+
+.navbar-nav > li {
+  padding: 0 20px;
+}
+
+li:last-child {
+  padding-right: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #5B3619;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #5B3619;
+}
+
 /* Wrapper */
-.wrapper {
-  max-width: 1400px;
-  margin: 0 auto;
+.home .wrapper {
   background-image: url('images/header-image.png');
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
   background-color: #FCF7DC;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
 .header {
   min-height: 400px;
-  height: 100vh;
+  height: 640px;
   position: relative;
 }
 
@@ -39,7 +101,7 @@ h6 {
 
 .title {
   position: relative;
-  z-index: 999999;
+  z-index: 99;
 }
 
 .title a {
@@ -55,14 +117,16 @@ h6 {
 
 .about-ohu {
   position: relative;
-  font-family: 'amerika_pro', serif;
-  line-height: 1.5;
-  color: #5B3619;
   text-align: center;
   margin-bottom: 100px;
 }
 
-.about-ohu > .container {
+.about-ohu p {
+  font-family: 'amerika_pro', serif;
+  line-height: 1.5;
+}
+
+.container {
   max-width: 1000px;
 }
 
@@ -75,7 +139,7 @@ h6 {
 .cloud {
   position: absolute;
   display: none;
-  z-index: 999;
+  z-index: 99;
 }
 
 @media (min-width: 1200px) {
@@ -109,11 +173,13 @@ h6 {
 }
 
 .mascot-name {
-  font-family: 'amerika_pro', serif;
-  line-height: 1.5;
-  color: #5B3619;
   text-align: center;
   margin-bottom: 40px;
+}
+
+.mascot-name {
+  font-family: 'amerika_pro', serif;
+  line-height: 1.5;
 }
 
 @media (min-width: 768px) { 
@@ -125,9 +191,11 @@ h6 {
 
 
 .timeline-ohu {
-  font-family: 'amerika_pro', serif;
-  color: #5B3619;
   margin-bottom: 100px;
+}
+
+.timeline-ohu p {
+  font-family: 'amerika_pro', serif;
 }
 
 .timeline-ohu-title {
@@ -248,7 +316,7 @@ h6 {
 .organigram > img {
   width: 100%;
   position: relative; 
-  z-index: 999;
+  z-index: 99;
 }
 
 .organigram-bg > img {
@@ -260,7 +328,7 @@ h6 {
 .organigram-img-wrapper {
   width: 100%;
   position: absolute;
-  z-index: 9999;
+  z-index: 99;
   bottom: 15%;
 }
 
@@ -378,6 +446,52 @@ footer {
     width: 52px;
     height: 52px;
  }
+}
+
+
+/* Page */
+.page-header {
+  border: none;
+  padding: 0;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.page-header a {
+  color: #5B3619;
+  text-decoration: none;
+}
+
+/* Home */
+.news-image img {
+  width: 100%;
+}
+
+.news-date {
+  margin: 10px 0 0;
+}
+
+.news-title {
+  font-size: 20px;
+  margin: 0 0 30px;
+}
+
+.news-title a {
+  color: #5B3619;
+  text-decoration: none;
+}
+
+/* Single */
+.article {
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+
+.article p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 1em;
 }
 
 /* Helper class */

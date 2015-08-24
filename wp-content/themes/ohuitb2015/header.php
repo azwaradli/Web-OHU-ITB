@@ -17,3 +17,59 @@
   </head>
 
   <body>
+    <div class="header">
+
+      <!-- Navigation -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                   <span class="sr-only">Toggle navigation</span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                </button>
+                <!-- <a class="navbar-brand" href="#page-top">Start Bootstrap</a> -->
+                <img src="images/logo.png" class="navbar-logo" alt="Logo OHU ITB 2015">
+             </div>
+
+             <!-- Collect the nav links, forms, and other content for toggling -->
+             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                      <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                      <a href="#home">Home</a>
+                    </li>
+                    <li class="page-scroll">
+                      <a href="#news">News</a>
+                    </li>
+                    <li class="page-scroll">
+                      <a href="#unit">Unit</a>
+                    </li>
+                    <li class="page-scroll">
+                      <a href="#kontak">Kontak</a>
+                    </li>
+                </ul>
+             </div>
+             <!-- /.navbar-collapse -->
+          </div>
+      </nav> <!-- end of navigation --> 
+
+      <!-- Gambar Maskot -->
+
+      <!-- Main Content -->
+      <div class="main-content">
+        <!-- Awan - awan -->
+        <div class="cloud cloud-1" data-bottom-top="transform: translateY(0px)" data-top-bottom="transform: translateY(-600px)">
+          <img src="images/cloud-1.png">
+        </div>
+
+        <div class="cloud cloud-2" data-bottom-top="transform: translateY(0px)" data-top-bottom="transform: translateY(-200px)">
+          <img src="images/cloud-2.png">
+        </div>
+        
+      </div>
+    </div>

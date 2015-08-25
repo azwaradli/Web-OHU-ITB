@@ -1,4 +1,4 @@
-<?php /* Template Name: Rumpun SeniBudaya */ get_header(); ?>
+<?php /* Template Name: Rumpun Media */ get_header(); ?>
     <div class="wrapper-unit">
 
     <div class="mascot">

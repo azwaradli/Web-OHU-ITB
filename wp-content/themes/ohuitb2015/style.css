@@ -14,6 +14,9 @@ body.logged-in .navbar-fixed-top {
 
 body {
   background: #9C9776;
+  font-family: 'aller', sans-serif;
+  color: #5B3619;
+  line-height: 1.7;
 }
 
 h1,
@@ -26,10 +29,6 @@ h6 {
   color: #5B3619;
 }
 
-p {
-  font-family: 'aller', sans-serif;
-  color: #5B3619;
-}
 
 /* Navbar */
 .navbar {
@@ -490,7 +489,6 @@ footer {
 
 .article p {
   font-size: 16px;
-  line-height: 1.5;
   margin-bottom: 1em;
 }
 

@@ -1,11 +1,11 @@
-<?php /* Template Name: Rumpun Media */ get_header(); ?>
+<?php /* Template Name: Rumpun SeniBudaya */ get_header(); ?>
     <div class="wrapper-unit">
 
     <div class="mascot">
-      Unit Media
+      <h1>Unit Keilmuan</h1>
     </div>
 
-      <div class="container-unit">
+      <div class="container container-unit">
 
           <!-- Ubur ubur -->
           <div class="cloud cloud-1" data-bottom-top="transform:translateY(0px)" data-top-bottom="transform:translateY(-400px)">
@@ -24,11 +24,11 @@
           ?>
 
           <div class="unit">
-            <div class="unit-name">
-              <?php echo the_title(); ?>
+            <div class="page-header">
+              <h2 class="page-header_title text-left"><?php echo the_title(); ?></h2>
             </div>
             <div class="row">
-              <div class="col-md-3">
+              <div class="col-md-3 unit-img">
                 <?php echo the_post_thumbnail(); ?>
               </div>
               <div class="col-md-9">

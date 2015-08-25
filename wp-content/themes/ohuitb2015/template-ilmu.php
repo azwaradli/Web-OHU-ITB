@@ -20,7 +20,7 @@
 
           <?php
             global $post;
-            $args = array( 'category_name' => 'olahraga' );
+            $args = array( 'category_name' => 'keilmuan' );
             $posts = get_posts( $args );
             foreach( $posts as $post ): setup_postdata($post); 
           ?>

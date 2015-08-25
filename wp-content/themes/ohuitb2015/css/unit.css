@@ -27,8 +27,11 @@ li:last-child {
   color: #5B3619;
 }
 
+.navbar-default .navbar-collapse {
+  border: none;
+}
+
 .mascot {
-	width: 100%;
 	font-size: 45px;
 	text-align: center;
 	padding-bottom: 8vh;
@@ -37,7 +40,7 @@ li:last-child {
 .mascot > img {
 	padding-top: 10vh;
 	padding-bottom: 4vh;
-	width: 100%;
+	max-width: 100%;
 }
 
 .container-unit {

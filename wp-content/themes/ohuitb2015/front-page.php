@@ -101,7 +101,7 @@
           
           <div class="title" data-anchor-target=".organigram-bg" data--200-bottom-top="transform: translateY(400px);" data--500-top-bottom="transform: translateY(150px);">
             <h2 class="organigram-title">Organigram OHU</h2>
-            <p>(Hover to zoom or click <a href="">here</a> for high quality image)</p>
+            <p>(Hover to zoom or click <a href="<?php bloginfo( 'template_url' ) ?>/images/organigram-hq.png">here</a> for high quality image)</p>
           </div>
           
         </div>

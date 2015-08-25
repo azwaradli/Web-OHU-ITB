@@ -20,7 +20,7 @@
 
           <?php
             global $post;
-            $args = array( 'category_name' => 'olahraga' );
+            $args = array( 'posts_per_page' => 75, 'category_name' => 'olahraga' );
             $posts = get_posts( $args );
             foreach( $posts as $post ): setup_postdata($post); 
           ?>
@@ -34,7 +34,7 @@
                 <?php echo the_post_thumbnail(); ?>
               </div>
               <div class="col-md-9">
-                <?php echo the_excerpt(); ?>
+                <?php echo the_content(); ?>
               </div>
             </div>
           </div>

@@ -13,7 +13,8 @@
         $args = array(
           'post_type'     => 'post',
           'posts_per_page' => 6,
-          'paged' => $paged
+          'paged' => $paged,
+          'category_name' => 'berita'
         );
 
         $the_query = new WP_Query( $args );

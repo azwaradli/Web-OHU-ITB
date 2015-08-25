@@ -78,6 +78,7 @@ li:last-child {
 
 .unit img {
 	max-width: 100%;
+	height: auto;
 }
 
 .unit-name {

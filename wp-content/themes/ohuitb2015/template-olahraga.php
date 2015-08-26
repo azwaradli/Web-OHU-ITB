@@ -10,7 +10,13 @@
 
           <?php
             global $post;
-            $args = array( 'posts_per_page' => 75, 'category_name' => 'olahraga' );
+            $args = 
+              array( 
+                'posts_per_page'  => 75,
+                'category_name'   => 'olahraga',
+                'orderby'         => 'title',
+                'order'           => 'ASC'
+              );
             $posts = get_posts( $args );
             foreach( $posts as $post ): setup_postdata($post); 
           ?>
@@ -33,6 +39,13 @@
             endforeach; 
           ?>
 
+      </div>
+
+      <div class="organigram">
+        <img src="<?php bloginfo( 'template_url' )?>/images/footer-page.png">
+        <div class="footer-image-small">
+          <img src="<?php bloginfo( 'template_url' )?>/images/footer-bg-small.png">
+        </div>
       </div>
 
 <?php get_footer(); ?>

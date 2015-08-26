@@ -28,6 +28,13 @@
         </div>
 
       </div>
+
+      <div class="organigram">
+        <img src="<?php bloginfo('template_url');?>/images/footer-page.png">
+        <div class="footer-image-small">
+          <img src="<?php bloginfo('template_url');?>/images/footer-bg-small.png">
+        </div>
+      </div>
     
     </div>
 

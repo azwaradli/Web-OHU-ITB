@@ -77,3 +77,13 @@ li:last-child {
 	font-size: 24px;
 	padding-bottom: 35px;
 }
+
+.footer-image-small {
+  position: absolute;
+  bottom: -5%;
+  z-index: 90;
+}
+
+.footer-image-small img {
+  width: 100%;
+}

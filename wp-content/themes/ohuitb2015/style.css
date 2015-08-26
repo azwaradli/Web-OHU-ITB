@@ -29,6 +29,9 @@ h6 {
   color: #5B3619;
 }
 
+p {
+  margin-bottom: 24px;
+}
 
 /* Navbar */
 .navbar {
@@ -39,7 +42,8 @@ h6 {
   font-weight: 700;
   font-size: 16px;
   background: rgba(252,247,220,0.9);
-  border-radius: 0;
+  -webkit-border-radius: 0;
+          border-radius: 0;
   border: none;
   margin: 0;
 }
@@ -81,7 +85,8 @@ li:last-child {
   max-width: 1400px;
   margin: 0 auto;
   background-color: #FCF7DC;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+          box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
 .header {
@@ -95,7 +100,9 @@ li:last-child {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, calc(-50% + 70px));
+  -webkit-transform: translate(-50%, -webkit-calc(-50% + 70px));
+      -ms-transform: translate(-50%, calc(-50% + 70px));
+          transform: translate(-50%, calc(-50% + 70px));
 }
 
 .title {
@@ -334,7 +341,9 @@ li:last-child {
 .organigram-img {
   max-width: 60%;
   margin-left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .images-zoom {
@@ -479,6 +488,23 @@ footer {
 .news-title a {
   color: #5B3619;
   text-decoration: none;
+}
+
+.pagination {
+  width: 100%;
+  text-align: center;
+  font-family: amerika_pro;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.pagination a {
+  color: #5B3619;
+  text-decoration: none;
+}
+
+.pagination .current {
+  color: #D7CDBF;
 }
 
 /* Single */

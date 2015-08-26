@@ -1,5 +1,5 @@
 <?php /* Template Name: Rumpun SeniBudaya */ get_header(); ?>
-    <div class="wrapper-unit">
+    <div class="wrapper">
 
     <div class="mascot">
       <img src="<?php bloginfo('template_url'); ?>/images/unit-kebudayaan.png">

@@ -2,6 +2,7 @@
     <div class="wrapper-unit">
 
     <div class="mascot">
+      <img src="<?php bloginfo('template_url'); ?>/images/unit-keilmuan.png">
       <h1>Unit Agama</h1>
     </div>
 

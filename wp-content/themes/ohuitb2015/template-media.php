@@ -1,4 +1,4 @@
-<?php /* Template Name: Rumpun SeniBudaya */ get_header(); ?>
+<?php /* Template Name: Rumpun Media */ get_header(); ?>
     <div class="wrapper-unit">
 
     <div class="mascot">
@@ -18,7 +18,7 @@
 
           <?php
             global $post;
-            $args = array( 'posts_per_page' => 75, 'category_name' => 'seni-budaya' );
+            $args = array( 'posts_per_page' => 75, 'category_name' => 'media' );
             $posts = get_posts( $args );
             foreach( $posts as $post ): setup_postdata($post); 
           ?>

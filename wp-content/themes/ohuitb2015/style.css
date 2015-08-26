@@ -72,7 +72,33 @@ li:last-child {
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
   color: #5B3619;
+}	/*End of Navbar*/
+
+
+/* Dropdown Menu */
+
+.dropdown-menu{
+	background-color: #FCF7DC;
 }
+
+ul.dropdown-menu > li:last-child{
+	margin-bottom: 5px;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover,
+.dropdown-menu > li > a:hover,
+.nav .open > a{
+	color: #5B3619;
+	background-color: transparent;
+}
+
+.dropdown-menu > li > a:hover{
+	text-decoration: underline;
+}
+
+/* End of Dropdown Menu */
 
 /* Wrapper */
 .home .wrapper {

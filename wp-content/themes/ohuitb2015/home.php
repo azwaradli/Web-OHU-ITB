@@ -55,7 +55,9 @@
 
         </div>
         <div class="pagination">
-          <?php echo paginate_links( ); ?>
+          <?php
+            paginate_category(($the_query->found_posts));
+          ?>
         </div>
 
       </div>

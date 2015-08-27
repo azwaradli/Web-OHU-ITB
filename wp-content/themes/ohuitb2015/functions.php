@@ -58,4 +58,10 @@
 	}
 	create_widget('Front Page Left', 'front-left', 'Display on the left of the homepage');
 
+	function paginate_category( $total_posts ) {
+        for ($i=1; $i<=($total_posts/6)+1; $i++) {
+          echo "<a href=\"/news/page/" . $i . "\">" . $i . "</a>";
+        }
+	}
+
 ?>

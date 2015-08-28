@@ -59,7 +59,7 @@
 	}
 	create_widget('Front Page Left', 'front-left', 'Display on the left of the homepage');
 
-function paginate_category( $total_posts, $current_post ) {
+function paginate_category( $total_posts ) {
 	$total_page = ($total_posts - 1)/6 + 1;
   for ( $i = 1; $i <= $total_page; $i++ ) {
     echo "<a class=\"page-numbers\" href=\"/news/page/" . $i . "\">" . $i . "</a>";

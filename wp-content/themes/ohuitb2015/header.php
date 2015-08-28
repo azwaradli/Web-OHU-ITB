@@ -47,20 +47,67 @@
                       <a href="<?php bloginfo( 'url' );?>/news">News</a>
                     </li>
                     <li class="dropdown">
-                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Unit <span class="caret"></span></a>
-                       <ul class="dropdown-menu">
-                         <li><a href="<?php bloginfo( 'url' );?>/rumpun-agama">Rumpun Agama</a></li>
-                         <li><a href="<?php bloginfo( 'url' );?>/rumpun-media">Rumpun Media</a></li>
-                         <li><a href="<?php bloginfo( 'url' );?>/rumpun-seni-budaya">Rumpun Seni Budaya</a></li>
-                         <li><a href="<?php bloginfo( 'url' );?>/rumpun-olahraga">Rumpun Olahraga</a></li>
-                         <li><a href="<?php bloginfo( 'url' );?>/rumpun-keilmuan">Rumpun Pendidikan</a></li>
-                         <li><a href="<?php bloginfo( 'url' );?>/rumpun-kajian">Rumpun Kajian</a></li>
-                       </ul>
-                     </li>
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Unit <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="<?php bloginfo( 'url' );?>/rumpun-agama">Rumpun Agama</a></li>
+                        <li><a href="<?php bloginfo( 'url' );?>/rumpun-media">Rumpun Media</a></li>
+                        <li><a href="<?php bloginfo( 'url' );?>/rumpun-seni-budaya">Rumpun Seni Budaya</a></li>
+                        <li><a href="<?php bloginfo( 'url' );?>/rumpun-olahraga">Rumpun Olahraga</a></li>
+                        <li><a href="<?php bloginfo( 'url' );?>/rumpun-keilmuan">Rumpun Pendidikan</a></li>
+                        <li><a href="<?php bloginfo( 'url' );?>/rumpun-kajian">Rumpun Kajian</a></li>
+                      </ul>
+                    </li>
+                    <li class="page-scroll">
+                      <a href="#" data-toggle="modal" data-target="#myModal">Sponsor & Media</a>
+                    </li>
                 </ul>
              </div>
              <!-- /.navbar-collapse -->
           </div>
       </nav> <!-- end of navigation --> 
 
-      <!-- Gambar Maskot -->
+      <!-- Modal -->
+      <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 class="modal-title">Sponsored By</h3>
+            </div>
+            <div class="modal-body sponsor-medpar">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <img src="images/dauky.png" class="big-logo">
+                      <br>
+                      <img src="images/elzatta.png" class="medium-logo">
+                      <img src="images/wardah-cosmetics.jpg" class="medium-logo">
+                      <img src="images/oppo.png" class="medium-logo">
+                      <br>
+                      <img src="images/warpas.jpg" class="small-logo">
+                      <img src="images/logotbiasli.png" class="small-logo">
+                    </div>
+                  </div>
+            </div>
+
+            <div class="modal-header">
+              <h3 class="modal-title">Media Partner</h3>
+            </div>
+            <div class="modal-body sponsor-medpar">
+                  <div class="row">
+                    <div class="col-xs-12">
+                    <!-- Isi Sponsor -->
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- End of Modal -->

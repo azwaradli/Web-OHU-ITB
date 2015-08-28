@@ -1,9 +1,9 @@
-<?php /* Template Name: Rumpun Media */ get_header(); ?>
+<?php /* Template Name: Rumpun Kajian */ get_header(); ?>
     <div class="wrapper-unit">
 
     <div class="mascot">
       <img src="<?php bloginfo('template_url'); ?>/images/unit-keilmuan.png">
-      <h1>Unit Media</h1>
+      <h1>Unit Kajian</h1>
     </div>
 
       <div class="container container-unit">
@@ -13,7 +13,7 @@
             $args = 
               array( 
                 'posts_per_page'  => 75,
-                'category_name'   => 'media',
+                'category_name'   => 'kajian',
                 'orderby'         => 'title',
                 'order'           => 'ASC'
               );

@@ -8,18 +8,15 @@
 
       <div class="container container-unit">
 
-          <!-- Ubur ubur -->
-          <div class="cloud cloud-1" data-bottom-top="transform:translateY(0px)" data-top-bottom="transform:translateY(-400px)">
-            <img src="<?php bloginfo('template_url');?>/images/cloud-1.png">  
-          </div>
-          
-          <div class="cloud cloud-2" data-bottom-top="transform:translateY(0px)" data-top-bottom="transform:translateY(-400px)">
-            <img src="<?php bloginfo('template_url');?>/images/cloud-2.png">  
-          </div>
-
           <?php
             global $post;
-            $args = array( 'posts_per_page' => 75, 'category_name' => 'agama' );
+            $args = 
+              array( 
+                'posts_per_page'  => 75,
+                'category_name'   => 'agama',
+                'orderby'         => 'title',
+                'order'           => 'ASC'
+              );
             $posts = get_posts( $args );
             foreach( $posts as $post ): setup_postdata($post); 
           ?>
@@ -45,11 +42,11 @@
       </div>
 
       <div class="organigram">
-        
-        <div class="organigram-bg" data-bottom-top="transform: translateY(0px);" data-top-bottom="transform: translateY(50px);">
+        <img src="<?php bloginfo( 'template_url' )?>/images/footer-page.png">
+        <div class="footer-image-small">
+          <img src="<?php bloginfo( 'template_url' )?>/images/footer-bg-small.png">
         </div>
-        <img src="<?php bloginfo('template_url');?>/images/footer-page.png">
-
       </div>
+
 
 <?php get_footer(); ?>

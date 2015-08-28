@@ -74,12 +74,40 @@ li:last-child {
   color: #5B3619;
 }	
 
-.image-sponsor-medpar > img{
-	width: 100%;
-	max-width: 10px;
+/*End of Navbar*/
+
+/* Modals */
+.modal-header{
+	text-align: center;
 }
 
-/*End of Navbar*/
+.header2{
+	margin-top: 130px;
+}
+
+.sponsor-medpar{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.sponsor-medpar img{
+	max-width: 100%;
+	margin: 20px 15px;
+}
+
+.big-logo{
+	width: 200px;
+}
+
+.medium-logo{
+	width: 150px;
+}
+
+.small-logo{
+	width: 75px;
+}
+
+/*End of Modals*/
 
 
 /* Dropdown Menu */

@@ -25,7 +25,8 @@
 		if ( !wp_is_mobile() ) {
 			wp_enqueue_script('skrollr_js',  get_template_directory_uri() . '/js/skrollr.min.js', array('jquery'), '', true);
 		}
-
+		wp_enqueue_script('mousewheel_js',  get_template_directory_uri() . '/js/jquery.mousewheel.min.js', array('jquery'), '', true);
+		wp_enqueue_script('smoothscroll_js',  get_template_directory_uri() . '/js/jquery.simplr.smoothscroll.min.js', array('jquery'), '', true);
 		wp_enqueue_script('easyzoom_js',  get_template_directory_uri() . '/js/easyzoom.js', array('jquery'), '', true);
 		wp_enqueue_script('main_js',  get_template_directory_uri() . '/js/main.js', array('jquery'), '', true);
 	}
@@ -58,12 +59,19 @@
 	}
 	create_widget('Front Page Left', 'front-left', 'Display on the left of the homepage');
 
-function paginate_category( $total_posts, $current_post ) {
+function paginate_category( $total_posts ) {
 	$total_page = ($total_posts - 1)/6 + 1;
   for ( $i = 1; $i <= $total_page; $i++ ) {
     echo "<a class=\"page-numbers\" href=\"/news/page/" . $i . "\">" . $i . "</a>";
     echo "\n";
   }
+}
+
+add_filter( 'post_thumbnail_html', 'remove_thumbnail_dimensions', 10, 3 );
+
+function remove_thumbnail_dimensions( $html, $post_id, $post_image_id ) {
+    $html = preg_replace( '/(width|height)=\"\d*\"\s/', "", $html );
+    return $html;
 }
 
 ?>

@@ -27,15 +27,9 @@
           
           <div class="col-md-4">
             <div class="news-image">
-              <?php
-              if ( has_post_thumbnail() ) {
-                the_post_thumbnail();
-              }
-              else {
-                echo '<img src="' . get_bloginfo( 'stylesheet_directory' ) . '/images/post-image-placeholder.png">';
-              }
-              ?>
-
+              <?php if ( has_post_thumbnail() ) : ?>
+                <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+              <?php endif; ?>
             </div>
 
             <div class="news-header"> 

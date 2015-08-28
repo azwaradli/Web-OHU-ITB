@@ -433,6 +433,10 @@ footer {
   background-image: url('images/logo-facebook.png');
 }
 
+.contact-youtube {
+  background-image: url('images/logo-youtube.png');
+}
+
 .contact-line {
   background-image: url('images/logo-line.png');
 }
@@ -445,6 +449,7 @@ footer {
 .contact-instagram,
 .contact-facebook,
 .contact-line,
+.contact-youtube,
 .contact-twitter {
   background-size: 100%;
   background-repeat: no-repeat;
@@ -542,6 +547,29 @@ footer {
 .article p {
   font-size: 16px;
   margin-bottom: 1em;
+}
+
+
+/* Image Alignment */
+.alignleft {
+  display: block;
+  margin: 0 auto 16px;
+}
+
+@media (min-width: 600px) {
+  .alignleft {
+    float: left;
+    margin: 6px 16px 16px 0;
+  }
+}
+
+.aligncenter {
+  display: block;
+  margin: 0 auto 16px;
+}
+
+.addtoany_share_save_container {
+    padding-top: 16px;
 }
 
 /* Helper class */

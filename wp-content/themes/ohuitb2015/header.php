@@ -44,14 +44,14 @@
                       <a href="<?php bloginfo( 'url' ) ?>">Home</a>
                     </li>
                     <li class="page-scroll">
-                      <a href="#">News</a>
+                      <a href="<?php bloginfo( 'url' );?>/news">News</a>
                     </li>
                     <li class="dropdown">
                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Unit <span class="caret"></span></a>
                        <ul class="dropdown-menu">
                          <li><a href="<?php bloginfo( 'url' );?>/rumpun-seni-budaya">Rumpun Seni Budaya</a></li>
                          <li><a href="<?php bloginfo( 'url' );?>/rumpun-olahraga">Rumpun Olahraga</a></li>
-                         <li><a href="<?php bloginfo( 'url' );?>/rumpun-keilmuan">Rumpun Keilmuan</a></li>
+                         <li><a href="<?php bloginfo( 'url' );?>/rumpun-keilmuan">Rumpun Pendidikan</a></li>
                        </ul>
                      </li>
                 </ul>

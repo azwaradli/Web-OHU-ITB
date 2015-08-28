@@ -34,12 +34,10 @@ li:last-child {
 .mascot {
 	font-size: 45px;
 	text-align: center;
-	padding-bottom: 8vh;
+	padding-top: 80px;
 }
 
 .mascot > img {
-	padding-top: 10vh;
-	padding-bottom: 4vh;
 	max-width: 100%;
 }
 

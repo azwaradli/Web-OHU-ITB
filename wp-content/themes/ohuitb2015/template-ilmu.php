@@ -3,7 +3,7 @@
 
     <div class="mascot">
       <img src="<?php bloginfo('template_url'); ?>/images/unit-keilmuan.png">
-      <h1>Unit Keilmuan</h1>
+      <h1>Unit Pendidikan</h1>
     </div>
 
       <div class="container container-unit">

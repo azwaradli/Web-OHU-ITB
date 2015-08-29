@@ -79,14 +79,14 @@
             <div class="modal-body sponsor-medpar">
                   <div class="row">
                     <div class="col-xs-12">
-                      <img src="images/dauky.png" class="big-logo">
+                      <img src="<?php bloginfo('template_url') ?>/images/dauky.png" class="big-logo">
                       <br>
-                      <img src="images/elzatta.png" class="medium-logo">
-                      <img src="images/wardah-cosmetics.jpg" class="medium-logo">
-                      <img src="images/oppo.png" class="medium-logo">
+                      <img src="<?php bloginfo('template_url') ?>/images/sponsor/elzatta.png" class="medium-logo">
+                      <img src="<?php bloginfo('template_url') ?>/images/sponsor/wardah-cosmetics.jpg" class="medium-logo">
+                      <img src="<?php bloginfo('template_url') ?>/images/sponsor/oppo.png" class="medium-logo">
                       <br>
-                      <img src="images/warpas.jpg" class="small-logo">
-                      <img src="images/logotbiasli.png" class="small-logo">
+                      <img src="<?php bloginfo('template_url') ?>/images/sponsor/warpas.jpg" class="small-logo">
+                      <img src="<?php bloginfo('template_url') ?>/images/sponsor/logotbiasli.png" class="small-logo">
                     </div>
                   </div>
             </div>

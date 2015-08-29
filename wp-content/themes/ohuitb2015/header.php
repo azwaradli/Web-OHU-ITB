@@ -79,6 +79,7 @@
             <div class="modal-body sponsor-medpar">
                   <div class="row">
                     <div class="col-xs-12">
+                      <!-- Logo Sponsor -->
                       <img src="<?php bloginfo('template_url') ?>/images/dauky.png" class="big-logo">
                       <br>
                       <img src="<?php bloginfo('template_url') ?>/images/sponsor/elzatta.png" class="medium-logo">
@@ -99,37 +100,37 @@
                     <div class="col-xs-12">
                       <!-- Logo Media Partner -->
                       <div class="medpar-logo">
-                        <img src="images/medpar/99ers.jpg">
-                        <img src="images/medpar/22wcxuFP.jpeg">
-                        <img src="images/medpar/Logo BE.png">
-                        <img src="images/medpar/Logo Icihers Magazine.png">
-                        <img src="images/medpar/logo_sml-5fdc686396fda4852795c83a1596e923.png">
-                        <img src="images/medpar/Ichannelbdg.png">
-                        <img src="images/medpar/zkIW-hHM.jpg">
-                        <img src="images/medpar/eventbanget logo (dark).png">
-                        <img src="images/medpar/logo Provoke item.png">
-                        <img src="images/medpar/mail.google.com.jpg">
-                        <img src="images/medpar/LOGO SONORA.png">
-                        <img src="images/medpar/rri.jpg">
-                        <img src="images/medpar/hits radio.png">
-                        <img src="images/medpar/logo-kaka-2014.png">
-                        <img src="images/medpar/banner-web.gif">
-                        <img src="images/medpar/Logo Kantor Berita ITB.jpg">
-                        <img src="images/medpar/Logo Event Media Partner.png">
-                        <img src="images/medpar/BLURadioLogo.png">
-                        <img src="images/medpar/11796317_991365440908268_5513837677234797190_n.jpg">
-                        <img src="images/medpar/logo acara.png">
-                        <img src="images/medpar/Logobvoice.png">
-                        <img src="images/medpar/1400029763109.jpg">
-                        <img src="images/medpar/indung_Logo Primary-01.png">
-                        <img src="images/medpar/logo radiomu.JPG">
-                        <img src="images/medpar/logo baru.JPG">
-                        <img src="images/medpar/logo Info Jatnong.jpg">
-                        <img src="images/medpar/Logo 8EH Radio ITB.png">
-                        <img src="images/medpar/1438841726563.jpg">
-                        <img src="images/medpar/logo KLCBS Design of Life Hires.eps">
-                        <img src="images/medpar/logo KLCBS Radio Hires.eps">
-                        <img src="images/medpar/logo Radio Kampus Besar.png">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/99ers.jpg">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/22wcxuFP.jpeg">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/Logo BE.png">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/Logo Icihers Magazine.png">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/logo_sml-5fdc686396fda4852795c83a1596e923.png">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/Ichannelbdg.png">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/zkIW-hHM.jpg">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/eventbanget logo (dark).png">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/logo Provoke item.png">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/mail.google.com.jpg">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/LOGO SONORA.png">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/rri.jpg">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/hits radio.png">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/logo-kaka-2014.png">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/banner-web.gif">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/Logo Kantor Berita ITB.jpg">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/Logo Event Media Partner.png">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/BLURadioLogo.png">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/11796317_991365440908268_5513837677234797190_n.jpg">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/logo acara.png">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/Logobvoice.png">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/1400029763109.jpg">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/indung_Logo Primary-01.png">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/logo radiomu.JPG">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/logo baru.JPG">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/logo Info Jatnong.jpg">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/Logo 8EH Radio ITB.png">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/1438841726563.jpg">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/index.jpg">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/image.png">
+                        <img src="<?php bloginfo('template_url') ?>/images/medpar/logo Radio Kampus Besar.png">
                       </div>
                     </div>
                   </div>

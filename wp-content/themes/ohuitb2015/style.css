@@ -89,16 +89,31 @@ li:last-child {
 }
 
 .big-logo{
-	width: 200px;
+	width: 120px;
 }
 
 .medium-logo{
-	width: 150px;
+	width: 80px;
 }
 
 .medpar-logo img,
 .small-logo{
-	width: 65px;
+	width: 35px;
+}
+
+@media (min-width: 769px){
+	.big-logo{
+		width: 200px;
+	}
+
+	.medium-logo{
+		width: 150px;
+	}
+
+	.medpar-logo img,
+	.small-logo{
+		width: 65px;
+	}
 }
 
 /*End of Modals*/

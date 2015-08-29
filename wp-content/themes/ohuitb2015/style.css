@@ -77,14 +77,7 @@ li:last-child {
 /*End of Navbar*/
 
 /* Modals */
-.modal-header{
-	text-align: center;
-}
-
-.header2{
-	margin-top: 130px;
-}
-
+.modal-header,
 .sponsor-medpar{
 	margin: 0 auto;
 	text-align: center;
@@ -103,8 +96,9 @@ li:last-child {
 	width: 150px;
 }
 
+.medpar-logo img,
 .small-logo{
-	width: 75px;
+	width: 65px;
 }
 
 /*End of Modals*/
